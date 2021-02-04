@@ -1,0 +1,42 @@
+﻿@{
+    Layout = null;
+}
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    @*<form enctype="application/x-www-form-urlencoded" method="post">
+            @if (!User.Identity.IsAuthenticated)
+            {
+                <div><label>用户名：<input type="text" name="UserName" /></label><button type="submit">登录</button></div>
+            }
+            else
+            {
+                <div><label>用户名：@User.Identity.Name</label><a href="/Home/SignOut">退出</a></div>
+            }
+        </form>*@
+
+    <span  onclick="GetToken()">获取Token</span><br />
+    <span  onclick="GetValue()">获取Value</span>
+    <input id="gettoken" type="text" value="" />
+</body>
+</html>
+<script>
+    function GetToken()
+    {
+        $.post("/Home/GetToken", {}, function (data) {
+            $("#gettoken").val(data);
+            console.log(data);
+        })
+    }
+    function GetValue() {
+        $.post("/Home/GetValue", { "toknen_": $("#gettoken").val() }, function (data) {
+            console.log(data);
+        })
+    }
+</script>

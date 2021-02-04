@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "RH2YiA5H7TpqEgMVyemJWXxNbywGDIllPsKJ3qmnFqpfkg6p0Bf7UeCgQDZDK/VM+9S6JwX5/lDHRlYWMnldXw==",
+  "success": true,
+  "projectFilePath": "J:\\SSOService\\SSOCommon\\SSOCommon.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

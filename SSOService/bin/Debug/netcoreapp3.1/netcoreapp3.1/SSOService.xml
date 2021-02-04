@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SSOService</name>
+    </assembly>
+    <members>
+        <member name="M:SSOService.Controllers.ValuesController.Get">
+            <summary>
+            获取文本
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SSOService.Controllers.ValuesController.Subtract(SSOService.Controllers.Param)">
+            <summary>
+            两数相减
+            </summary>
+            <param name="param">参数</param>
+            <returns></returns>
+        </member>
+        <member name="T:SSOService.Controllers.Param">
+            <summary>
+            参数
+            </summary>
+        </member>
+        <member name="P:SSOService.Controllers.Param.num1">
+            <summary>
+            第一个数
+            </summary>
+        </member>
+        <member name="P:SSOService.Controllers.Param.num2">
+            <summary>
+            第二个数
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,9 @@
+J:\SSOService\SSOCommon\bin\Debug\netcoreapp3.1\SSOCommon.deps.json
+J:\SSOService\SSOCommon\bin\Debug\netcoreapp3.1\SSOCommon.dll
+J:\SSOService\SSOCommon\bin\Debug\netcoreapp3.1\SSOCommon.pdb
+J:\SSOService\SSOCommon\obj\Debug\netcoreapp3.1\SSOCommon.AssemblyInfoInputs.cache
+J:\SSOService\SSOCommon\obj\Debug\netcoreapp3.1\SSOCommon.AssemblyInfo.cs
+J:\SSOService\SSOCommon\obj\Debug\netcoreapp3.1\SSOCommon.csproj.CoreCompileInputs.cache
+J:\SSOService\SSOCommon\obj\Debug\netcoreapp3.1\SSOCommon.dll
+J:\SSOService\SSOCommon\obj\Debug\netcoreapp3.1\SSOCommon.pdb
+J:\SSOService\SSOCommon\obj\Debug\netcoreapp3.1\SSOCommon.csprojAssemblyReference.cache

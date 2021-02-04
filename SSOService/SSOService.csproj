@@ -1,0 +1,63 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>bin\Debug\netcoreapp3.1\</OutputPath>
+    <DocumentationFile>bin\Debug\netcoreapp3.1\SSOService.xml</DocumentationFile>
+    <NoWarn>1701;1702;1591</NoWarn>
+    <WarningLevel>5</WarningLevel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="obj\Debug\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\netcoreapp3.1\SSOService.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\netcoreapp3.1\SSOService.MvcApplicationPartsAssemblyInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="obj\Debug\netcoreapp3.1\SSOService.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\netcoreapp3.1\staticwebassets\SSOService.StaticWebAssets.xml" />
+    <Content Include="obj\project.assets.json" />
+    <Content Include="obj\SSOService.csproj.nuget.dgspec.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="obj\Debug\netcoreapp3.1\apphost.exe" />
+    <None Include="obj\Debug\netcoreapp3.1\SSOService.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\SSOService.assets.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\SSOService.csproj.CopyComplete" />
+    <None Include="obj\Debug\netcoreapp3.1\SSOService.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\SSOService.csprojAssemblyReference.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\SSOService.dll" />
+    <None Include="obj\Debug\netcoreapp3.1\SSOService.genruntimeconfig.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\SSOService.MvcApplicationPartsAssemblyInfo.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\SSOService.pdb" />
+    <None Include="obj\Debug\netcoreapp3.1\SSOService.RazorTargetAssemblyInfo.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\staticwebassets\SSOService.StaticWebAssets.Manifest.cache" />
+    <None Include="obj\project.nuget.cache" />
+    <None Include="obj\SSOService.csproj.nuget.g.props" />
+    <None Include="obj\SSOService.csproj.nuget.g.targets" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="5.2.0" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="6.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="5.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="5.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SSODataBase\SSODataBase.csproj" />
+  </ItemGroup>
+
+
+</Project>

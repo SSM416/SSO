@@ -1,0 +1,11 @@
+J:\SSOService\SSODataBase\bin\Debug\netcoreapp3.1\SSODataBase.deps.json
+J:\SSOService\SSODataBase\bin\Debug\netcoreapp3.1\SSODataBase.runtimeconfig.json
+J:\SSOService\SSODataBase\bin\Debug\netcoreapp3.1\SSODataBase.runtimeconfig.dev.json
+J:\SSOService\SSODataBase\bin\Debug\netcoreapp3.1\SSODataBase.dll
+J:\SSOService\SSODataBase\bin\Debug\netcoreapp3.1\SSODataBase.pdb
+J:\SSOService\SSODataBase\obj\Debug\netcoreapp3.1\SSODataBase.AssemblyInfoInputs.cache
+J:\SSOService\SSODataBase\obj\Debug\netcoreapp3.1\SSODataBase.AssemblyInfo.cs
+J:\SSOService\SSODataBase\obj\Debug\netcoreapp3.1\SSODataBase.csproj.CoreCompileInputs.cache
+J:\SSOService\SSODataBase\obj\Debug\netcoreapp3.1\SSODataBase.dll
+J:\SSOService\SSODataBase\obj\Debug\netcoreapp3.1\SSODataBase.pdb
+J:\SSOService\SSODataBase\obj\Debug\netcoreapp3.1\SSODataBase.genruntimeconfig.cache

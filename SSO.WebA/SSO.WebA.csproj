@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="obj\Debug\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\netcoreapp3.1\SSO.WebA.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\netcoreapp3.1\SSO.WebA.RazorAssemblyInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="obj\project.assets.json" />
+    <Content Include="obj\SSO.WebA.csproj.nuget.dgspec.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="obj\Debug\netcoreapp3.1\SSO.WebA.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\SSO.WebA.assets.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\SSO.WebA.RazorAssemblyInfo.cache" />
+    <None Include="obj\project.nuget.cache" />
+    <None Include="obj\SSO.WebA.csproj.nuget.g.props" />
+    <None Include="obj\SSO.WebA.csproj.nuget.g.targets" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.0" />
+    <PackageReference Include="Microsoft.Identity.Client" Version="4.25.0" />
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="6.8.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.8.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SSODataBase\SSODataBase.csproj" />
+  </ItemGroup>
+
+</Project>
